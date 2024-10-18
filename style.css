@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(white-buble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20%;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    align-items: start;
+    width: 85%;
+    height: 95%;
+    position: absolute;
+    background-color: #f1ece4;
+    top: 150px;
+    bottom: 30px;
+    box-shadow:  -1px 50px 7px 2px rgba(5, 5, 5, 0.2);
+
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+button{
+    background-color: #e1b693;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    width: 60px;
+    height: 30px;
+}
+
+.osn{
+    margin-left: 23px;
+}
+
+img{
+    border: none;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.images{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    bottom: 5%;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.main_images{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    height: 380px;
+    width: 350px;
+    padding: 20px;
+}
+
+img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.main_parag{
+    display: flex;
+    margin-right:  87%;
+    position: absolute;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.second_parag{
+    display: flex;
+    text-align: right;
+    margin-left:   89%;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.second_main{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    height: 380px;
+    width: 350px;
+    padding: 20px;
+}
+
+.third_main{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    height: 380px;
+    width: 350px;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    right: 5.5%;
+    bottom: 30px;
+}
+
+.sec-logo{
+    display: flex;
+    position: absolute;
+    right: 39.5%;
+    bottom: 30px;
+}
+
+.third-logo{
+    display: flex;
+    position: absolute;
+    right: 73.5%;
+    bottom: 30px;
+}
+
+.photo{
+    padding: 10px;
+}
